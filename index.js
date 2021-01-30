@@ -1,12 +1,12 @@
-// const hours=new Date().getHours();
-// const minutes=new Date().getMinutes();
-// const seconds=new Date().getSeconds();
-// const hoursdeg=(360/12)*hours;
-// const minutesdeg=(360/60)*minutes;
-// const secondsdeg=(360/60)*seconds;
-// document.querySelector(".hours").style.transform=`rotate(${hoursdeg}deg)`;
-// document.querySelector(".minutes").style.transform=`rotate(${minutesdeg}deg)`;
-// document.querySelector(".seconds").style.transform=`rotate(${secondsdeg}deg)`;
+const hours=new Date().getHours();
+const minutes=new Date().getMinutes();
+const seconds=new Date().getSeconds();
+const hoursdeg=(360/12)*hours;
+const minutesdeg=(360/60)*minutes;
+const secondsdeg=(360/60)*seconds;
+document.querySelector(".hours").style.transform=`rotate(${hoursdeg}deg)`;
+document.querySelector(".minutes").style.transform=`rotate(${minutesdeg}deg)`;
+document.querySelector(".seconds").style.transform=`rotate(${secondsdeg}deg)`;
 function hour(){
     const hours=new Date().getHours();
     const hoursdeg=(360/12)*hours;
